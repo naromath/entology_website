@@ -1,0 +1,42 @@
+/* Mission Section Styles */
+
+.mission {
+    padding: 5rem 0;
+    background-color: white;
+}
+
+.mission-content {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+
+.mission-text {
+    flex: 1;
+}
+
+.mission-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: var(--dark-color);
+}
+
+.mission-description {
+    margin-bottom: 2rem;
+    color: var(--gray-color);
+    font-size: 1.1rem;
+}
+
+.mission-image {
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+.mission-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
